@@ -17,3 +17,31 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+
+############################## Base Class ##############################
+
+class Vehicle: 
+    pass
+
+######################### Derived Class ##############################
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+class Airplane(FlightVehicle):
+    pass
+
+######################### Final Class #############################
+
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
